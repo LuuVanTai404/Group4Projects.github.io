@@ -1,15 +1,20 @@
 *{
     margin:0px auto;
     padding:0px;
+    box-sizing: border-box;
 }
 body{
     font-family:sans-serif;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 #wrapper{
-    width: 1000px;
-    height: 85px;
+    width: 100%;
     position: relative;
+}
+header{
+    height: 60px;
 }
 header img{
     width: 160px;
@@ -25,6 +30,7 @@ nav ul{
     list-style: none;
     padding: 10px 0px;
     margin-left: 30px;
+    vertical-align: baseline;
 }
 .homelogo{
     width: 20px; height:auto; position:absolute; top:-17px; left:-20px
@@ -33,6 +39,7 @@ nav ul li{
     display: inline-block;
     padding-right: 20px;
     position: relative;
+    vertical-align: baseline;
 }
 nav ul li a{
     font-family: sans-serif;
@@ -66,11 +73,6 @@ nav ul button{
     margin: 1px;
     background-color: #f8f8f8;
 }
-nav ul :placeholder-shown{
-    width: 160px;
-    height: 20px;
-    margin: 1px;
-}
 .main{
     display: block;
     height: 450px;
@@ -80,7 +82,7 @@ nav ul :placeholder-shown{
 }
 .main .left{
     float: left;
-    width: 180px;
+    width: 130px;
 }
 .main .left .box-l{
     width: 100%;
@@ -89,32 +91,40 @@ nav ul :placeholder-shown{
     width: 110px;
     height: 60px;
     border: 1px solid #0080FF;
-    border-radius: 5px;
+    position: relative;
+    left: 17.5px;
 }
 .box-l h3 a{
-    font-size: 14px;
+    font-size: 11px;
     color: #252525;
     text-decoration: none;
     font-weight: normal;
+    position: relative;
+    left: 12px;
+    text-align: justify;
+    height: 80%;
 }
 .box-l h3 a:hover{
-    text-decoration: underline;
     color: #0080FF;
 }
 .box-2 img{
     width: 110px;
     height: 60px;
-    border-radius: 5px;
     border: 1px solid #0080FF;
+    position: relative;
+    left: 17.5px;
 }
 .box-2 h3 a{
-    font-size: 14px;
+    font-size: 11px;
     color: #252525;
     text-decoration: none;
     font-weight: normal;
+    position: relative;
+    left: 12px;
+    text-align: justify;
+    height: 60px;
 }
 .box-2 h3 a:hover{
-    text-decoration: underline;
     color: #0080FF;
 }
 .main .mainContent{
@@ -126,7 +136,6 @@ nav ul :placeholder-shown{
     width: 100%;
     height: auto;
     border: 1px solid #0080FF;
-    border-radius: 5px;
     margin-bottom: 10px;
 }
 .main .mainContent h2 a{
@@ -135,17 +144,18 @@ nav ul :placeholder-shown{
     text-decoration: none;
 }
 .main .mainContent h2 a:hover{
-    text-decoration: underline;
     color: #0080FF;
 }
 .main .mainContent p{
     color: #646464;
     text-align: justify;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 .main .right{
     float: right;
-    width: 310px;
+    width: 270px;
+    position: relative;
+    right: 80px;
 }
 table{
     width: 100%;
@@ -156,7 +166,6 @@ table tr td{
 .right img{
     width: 100px;
     border: 1px solid #0080FF;
-    border-radius: 5px;
     float: right;
 }
 .right h3{
@@ -170,7 +179,6 @@ table tr td{
     font-weight: normal;
 }
 .right h3 a:hover{
-    text-decoration: underline;
     color: #0080FF;
 }
 .right .box-r{
@@ -182,7 +190,7 @@ table tr td{
     width: 110px;
     height: 60px
     border: 1px solid #0080FF;
-    border-radius: 5px;
+
     float: right;
 }
 .right .box-r h3{
@@ -196,8 +204,36 @@ table tr td{
     text-decoration: none;
 }
 .right .box-r h3 a:hover{
-    text-decoration: underline;
     color: #0080FF;
+}
+.tieudiem p{
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.tieudiem h3 a{
+    font-size: 12px;
+    width: 120%;
+}
+
+.contact ul i{
+    justify-content: space-between 6px;
+}
+.search{
+    width: 200px;
+    height: 90%;
+    background-color: white;
+    margin-left: 80px;
+    border-radius: 1%;
+}
+.searchInput input{
+    width: 130px;
+
+}
+.searchInput button{
+    width: 18px;
+    position: relative;
+    height: 18px;
+    border: 1px solid #252525;
 }
 */
 footer{
