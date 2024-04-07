@@ -3,13 +3,15 @@
     <head>
         <meta http-equi="content-type" content="text/html">
         <meta name="author" content="GallerySoft.info"/>
-        <title> Vnexpress project grp8 </title>
-        <link rel="Stylesheet" content="text/css" href="a.css"/>
+        <link rel="icon" href="/projects/images/logo.png" type="image/x-icon">
+        <title> Group 4 Project </title>
+        <link rel="Stylesheet" content="text/css" href="/projects/css/a.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <div id="wrapper">
             <header>
-                <img src="https://static.ybox.vn/2017/7/19/9eb7963c-6c59-11e7-a763-56c566ee3692.jpg"/>
+                <img src="/projects/images/vnexpress.png"/>
             </header>
             <nav>
                 <ul>
@@ -26,12 +28,18 @@
                         </ul>
                     </li>
                     <li><a href="#"> Kinh doanh </a></li>
-                    <li><a href="#"> Bất động sản </a></li>
+                    <li><a href="/projects/html/batdongsan.html"> Bất động sản </a></li>
                     <li><a href="#"> Thể thao </a></li>
                     <li><a href="#">Nghệ Thuật</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                    <input type="text" placeholder="  Điền 1 từ khoá..">
-                    <button onclick="#">Search</button>
+                    <li><div class="search">
+                        <div class="searchInput">
+                         <input type="text" placeholder="  Điền 1 từ khoá..">
+                         <button>
+                            <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>
+                         </button>
+                        </div>
+                    </div>
+                    </li>
                 </ul>
             </nav>
             <div class="main">
@@ -43,7 +51,7 @@
                     <hr style="color:#F3F3F3"/><br>
                     <div class="box-2"> 
                         <img src="https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2024/2/21/mai-56-17085133379291709176524.jpg"/>
-                        <h3><a href="#"> Học sinh vô tư xem phim " Mai " dán nhãn 18+: Thanh tra Bộ Văn Hóa vào cuộc </a></h3>
+                        <h3><a href="#"> Học sinh vô tư xem phim "Mai" dán nhãn 18+: Thanh tra vào cuộc. </a></h3>
                     </div>
                 </div>
                 <div class="mainContent">
@@ -57,7 +65,7 @@
                     <table>
                         <tr>
                             <td><h3><a href="#"> Đại án Việt Á: Cựu Bộ trưởng Y tế Nguyễn Thanh Long kháng cáo </a></h3></td>
-                            <td><img src="https://cdnphoto.dantri.com.vn/wZ4GGaEieT8-vFsng99lZBogCt4=/thumb_w/1360/2024/02/27/bo-noi-vu-1689166180015-1694957927002-crop-1709018052015.jpeg""/></td>
+                            <td><img src="https://cdnphoto.dantri.com.vn/wZ4GGaEieT8-vFsng99lZBogCt4=/thumb_w/1360/2024/02/27/bo-noi-vu-1689166180015-1694957927002-crop-1709018052015.jpeg" style="height: 57.32px;"/></td>
                         </tr>
                         <tr>
                             <td><h3><a href="#"> Chiến sự Ukraine 21/2: Kiev liên tiếp nhận tin xấu, 
@@ -67,23 +75,33 @@
                         </tr>
                         <tr>
                             <td><h3><a href="#"> Trọng tài xem VAR nhưng vẫn thổi phạt đền vô cùng khó tin </a></h3></td>
-                            <td><img src="https://cdnphoto.dantri.com.vn/AgVziePoFJUJBxvyYM_fo9ZG0cE=/2024/03/03/giao-thong-nhao-nhao-tren-deo-hai-vanhoai-son2-1709442444780.jpg?watermark=true"/></td>
+                            <td><img src="https://cdnphoto.dantri.com.vn/AgVziePoFJUJBxvyYM_fo9ZG0cE=/2024/03/03/giao-thong-nhao-nhao-tren-deo-hai-vanhoai-son2-1709442444780.jpg?watermark=true" style="height: 57.32px;"/></td>
                         </tr>
                     </table>
-                    <hr style="margin-top:30px;"/>
-                    <table style="margin-top:30px;">
+                    <hr>
+                    <table style="margin-top:5px;">
                         <tr>
-                            <td>
-                                <p style="font-weight:bold; font-size:18px;"> Tiêu điểm </p><br>
+                            <td class="tieudiem">
+                                <p> Tiêu điểm </p>
                                 <h3><a href="#"> Trọng tài xem VAR nhưng vẫn thổi phạt đền đến khó tin </a></h3>
                             </td>
+                            <tr class="contact">
+                                <td>
+                                    <nav style="border-bottom: none;">
+                                        <ul style="text-align: left;">
+                                            <li><i class="fa-brands fa-facebook" style="color: #005eff;"><a href="#"></a></i></li>
+                                            <li> <i class="fa-solid fa-phone" style="color: #29e24e;"><a href="#"></a></i></li>
+                                            <li><i class="fa-regular fa-envelope" style="color: #fe0b0b;"><a href="#"></a></i></li>
+                                            <li><i class="fa-regular fa-paper-plane" style="color: #000000;"><a href="#"></a></i></li>
+
+                                        </ul>
+                                    </nav>
+                                </td>
+                            </tr>
                         </tr>
                     </table>
                 </div>
             </div>
-            <footer> CopyRight - 2024 <br>
-                Group Project - For education only
-            </footer>
         </div>
     </body>
 </html>
