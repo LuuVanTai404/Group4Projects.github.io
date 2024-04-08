@@ -75,16 +75,19 @@ nav ul button{
 }
 .main{
     display: block;
-    height: 450px;
-    max-width: 1000px;
+    height: 800px;
+    width: 1080px;
     margin-top: 15px;
     border-bottom: 2px solid #d3d3d3;
+    margin-left: 270px;
 }
-.main .left{
+.left{
     float: left;
     width: 130px;
+    margin-right: 15px;
+
 }
-.main .left .box-l{
+.box-l{
     width: 100%;
 }
 .box-l img{
@@ -127,35 +130,35 @@ nav ul button{
 .box-2 h3 a:hover{
     color: #0080FF;
 }
-.main .mainContent{
+.mainContent{
     width: 480px;
     float: left;
     margin: 0px 15px;
 }
-.main .mainContent img{
+.mainContent img{
     width: 100%;
     height: auto;
     border: 1px solid #0080FF;
     margin-bottom: 10px;
 }
-.main .mainContent h2 a{
+.mainContent h2 a{
     font-size: 18px;
     color: #252525;
     text-decoration: none;
 }
-.main .mainContent h2 a:hover{
+.mainContent h2 a:hover{
     color: #0080FF;
 }
-.main .mainContent p{
+.mainContent p{
     color: #646464;
     text-align: justify;
     margin-top: 12px;
 }
-.main .right{
-    float: right;
+.right{
+    float: left;
     width: 270px;
     position: relative;
-    right: 80px;
+    margin-left: 15px;
 }
 table{
     width: 100%;
@@ -181,29 +184,29 @@ table tr td{
 .right h3 a:hover{
     color: #0080FF;
 }
-.right .box-r{
+.box-r{
     width: 300px;
     margin-bottom: 20px;
     display: block;
 }
-.right .box-r img{
+.box-r img{
     width: 110px;
     height: 60px
     border: 1px solid #0080FF;
 
     float: right;
 }
-.right .box-r h3{
+.box-r h3{
     width: 180px;
     float: left;
     display: inline-block;
 }
-.right .box-r h3 a{
+.box-r h3 a{
     font-size: 14px;
     color: #252525;
     text-decoration: none;
 }
-.right .box-r h3 a:hover{
+.box-r h3 a:hover{
     color: #0080FF;
 }
 .tieudiem p{
@@ -222,7 +225,7 @@ table tr td{
     width: 200px;
     height: 90%;
     background-color: white;
-    margin-left: 80px;
+    margin-left: 600px;
     border-radius: 1%;
 }
 .searchInput input{
@@ -233,7 +236,7 @@ table tr td{
     width: 18px;
     position: relative;
     height: 18px;
-    border: 1px solid #252525;
+    border: none;
 }
 */
 footer{
